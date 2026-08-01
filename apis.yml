@@ -1,8 +1,24 @@
 aid: regulatory-datacorp
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regulatory-datacorp.png
 name: Regulatory DataCorp
-description: 'Regulatory DataCorp is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Regulatory DataCorp (RDC) was a risk and compliance intelligence company whose flagship
+  GRID (Global Regulatory Information Database) powered KYC, AML, and third-party/financial-crime
+  screening. RDC was acquired by Moody''s Corporation in 2020 and fully absorbed into Moody''s
+  risk and KYC product line; it no longer operates as a standalone entity. The former rdc.com and
+  regulatorydatacorp.com domains are parked on Moody''s nameservers with no live site, developer
+  portal, or public API. Surfaced as a portfolio-company lead of bain-capital-ventures; no independent
+  API surface exists to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/regulatory-datacorp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +28,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Commerce
+- Compliance
+- Risk
+- KYC
+- AML
+- Financial Crime
+- Data
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'Acquired by Moody''s (2020) and absorbed; former rdc.com / regulatorydatacorp.com
+    parked on Moody''s NS with no live site or public API. No API surface to enrich.'

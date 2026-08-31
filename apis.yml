@@ -62,3 +62,9 @@ x-enrichment:
   pass: local-v1
   notes: 'Acquired by Moody''s (2020) and absorbed; former rdc.com / regulatorydatacorp.com
     parked on Moody''s NS with no live site or public API. No API surface to enrich.'
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/moodys-corporation/
+  name: Moody's Corporation
+  x-relationship: acquired
+  x-evidence: "RDC was acquired by Moody's Corporation in 2020 and fully absorbed into Moody's risk and KYC product line; it no longer operates as a standalone entity."
